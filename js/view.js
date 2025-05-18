@@ -1,7 +1,7 @@
 export function renderHome(data) {
   return `
 <!-- Section: Tentang Kami -->
-<section class="py-5" style="background: linear-gradient(135deg, #DC3545, #DC3545);">
+<section class="py-5" style="background: linear-gradient(135deg, #E6002D, #E6002D);">
   <div class="container">
     <div class="card border-0 p-4 shadow rounded-4">
       <img src="pic/header.png" alt="Header Image"
@@ -14,7 +14,7 @@ export function renderHome(data) {
 </section>
 
 <!-- Section: Visi -->
-<section class="py-5" style="background: linear-gradient(135deg, #DC3545, #DC3545);">
+<section class="py-5" style="background: linear-gradient(135deg, #E6002D, #E6002D);">
   <div class="container">
     <div class="card border-0 p-4 shadow rounded-4">
       <h2 class="text-danger fw-bold mb-3">🎯 Visi Kami</h2>
@@ -24,7 +24,7 @@ export function renderHome(data) {
 </section>
 
 <!-- Section: Misi -->
-<section class="py-5" style="background: linear-gradient(135deg, #DC3545, #DC3545);">
+<section class="py-5" style="background: linear-gradient(135deg, #E6002D, #E6002D);">
   <div class="container">
     <div class="card border-0 p-4 shadow rounded-4">
       <h2 class="text-danger fw-bold mb-3">🚀 Misi Kami</h2>
@@ -40,7 +40,7 @@ export function renderHome(data) {
 </section>
 
 <!-- Section: Kontak -->
-<section class="py-5" style="background: linear-gradient(135deg, #DC3545, #DC3545);">
+<section class="py-5" style="background: linear-gradient(135deg, #E6002D, #E6002D);">
   <div class="container">
     <div class="card border-0 p-4 shadow rounded-4">
       <h2 class="text-danger fw-bold mb-3">📍 Kontak Kami</h2>
@@ -77,7 +77,7 @@ export function renderProducts(data) {
 
   return `
     <section class="mb-5">
-      <h2 class="mb-4 text-danger">${category}</h2>
+      <h2 class="mb-4 text-white">${category}</h2>
       <div class="row">
         ${filtered.map(p => `
           <div class="col-md-6 col-lg-4 mb-4">
