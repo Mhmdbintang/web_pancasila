@@ -1,0 +1,11 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #DC3545;
+}
+
+.card img {
+  border-radius: 12px;
+  max-height: 300px;
+  object-fit: scale-down;
+  margin-bottom: 1rem;
+}
